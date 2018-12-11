@@ -1,6 +1,7 @@
 # antlr-ast
 
 [![Build Status](https://travis-ci.org/datacamp/antlr-ast.svg?branch=master)](https://travis-ci.org/datacamp/antlr-ast)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdatacamp%2Fantlr-ast.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdatacamp%2Fantlr-ast?ref=badge_shield)
 
 This package allows you to take an Antlr4 parser output, and generate an abstract syntax tree (AST).
 
@@ -117,3 +118,7 @@ For a full example, see the parse function of `/tests/test_expr_ast.py`.
 ### Unshaped nodes
 
 When parts of the parse tree do not have instructions for mapping to an AST node, they are returned as an `Unshaped` node.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fdatacamp%2Fantlr-ast.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fdatacamp%2Fantlr-ast?ref=badge_large)
